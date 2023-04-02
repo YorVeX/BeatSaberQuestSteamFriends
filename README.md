@@ -4,9 +4,10 @@ This file needs to be filled if you want to see scores of your Steam friends usi
 
 ## Usage
 ℹ️ To use this script you need to have Python installed. There are many guides online on how to install Python on any operating system, please find one suitable for yourself.
+
 ⚠️ Steam Web API keys are often involved in Steam account theft. Never give out your key to anyone! Don't enter the key in binary tools that you don't know the source code of, there is a reason why this is released as a python script with source code readable for everyone!
 
-1. Download the script [from the latest release](releases/latest) (click one of the "Source Code" links) and save it somewhere.
+1. Download the script [from the latest release](https://github.com/YorVeX/BeatSaberQuestSteamFriends/releases/latest) (click one of the "Source Code" links) and save it somewhere.
 1. Go to https://steamcommunity.com/dev/apikey and register for a Steam Web API key if you haven't already (it doesn't matter what you enter for the domain field), then retrieve the key from there.
 1. Go to the folder of the downloaded script and open it (BeatSaberQuestSteamFriends.py) with a text editor.
 1. Find the line `key = '1234567890ABCDEF1234567890ABCDEF'` and put the Steam Web API key that you retrieved between the quotes.
