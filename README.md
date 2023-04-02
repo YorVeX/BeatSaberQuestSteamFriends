@@ -16,7 +16,7 @@ This python script automatically retrieves the comma separated list of steam IDs
 1. Go to https://steamcommunity.com/dev/apikey and register for a Steam Web API key if you haven't already (it doesn't matter what you enter for the domain field), then retrieve the key from there.
 1. Go to the folder of the downloaded script and open it (BeatSaberQuestSteamFriends.py) with a text editor.
 1. Find the line `key = '1234567890ABCDEF1234567890ABCDEF'` and replace the dummy key between the single quotes with the Steam Web API key that you retrieved from the Steam website.
-1. Find the line starting with `steamid =` and put the SteamID64 of your Steam account. You can use a tool like [SteamID.io](https://steamid.io) to find the steamID64 of any given account.
+1. Find the line starting with `steamid =` and put the SteamID64 of your Steam account between the single quotes, replacing the example Steam ID. You can use a tool like [SteamID.io](https://steamid.io) to find the steamID64 of any given account.
 1. Save the script and run it by double clicking or from a console window.
 1. The script should now have created a friends.txt file in the same folder the script is in.
 1. Connect your Quest to your PC so that you can access its file system and copy the friends.txt file to the folder `/sdcard/ModData/com.beatgames.beatsaber/Mods/ScoreSaber/` on the device.
