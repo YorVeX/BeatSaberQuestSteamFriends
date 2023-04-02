@@ -15,6 +15,7 @@ This file needs to be filled if you want to see scores of your Steam friends usi
 1. Save the script and run it by double clicking or from a console window.
 1. The script should now have created a friends.txt file in the same folder the script is in.
 1. Connect your Quest to your PC so that you can access its file system and copy the friends.txt file to the folder `/sdcard/ModData/com.beatgames.beatsaber/Mods/ScoreSaber/` on the device.
+1. ⚠️ Unless you know you need the Steam Web API key for anything else it is strongly advised to revoke the key again now using the same URL where you created it, it's a security risk!
 
 The script also outputs the comma separated list of friends Steam IDs to the console, so you could pipe it into any other script to use it there.
 
