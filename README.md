@@ -3,7 +3,7 @@ Unlike the Steam version of ScoreSaber when using it on Quest the scores of Stea
 From [here](https://www.patreon.com/posts/65844663):
 > Friends have to be manually added to /sdcard/ModData/com.beatgames.beatsaber/Mods/ScoreSaber/friends.txt
 
-To be more precise, the Steam ID 64 values of your friends need to be put there as a comma separated value. To do this manually would be a quite tedious task, especially for accounts with a large number of friends.
+To be more precise, the Steam ID 64 values of your friends need to be put there as a comma separated list. To do this manually would be a quite tedious task, especially for accounts with a large number of friends.
 
 This python script automatically retrieves the comma separated list of steam IDs of all Steam friends of an account using the Steam API. The data is output to the console as well as written to the "friends.txt" file that you need.
 
